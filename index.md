@@ -1,37 +1,123 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/MikeTribrat/goit-markup-hw-01/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/MikeTribrat/goit-markup-hw-01/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Шапка -->
+  <header>
+     <nav>   
+          <a href="/"><img src="./images/WebStudio.svg" alt="WebStudio"></a>
+        <ul>
+          <li><a href="">Студия</a></li>
+          <li><a href="">Портфолио</a></li>
+          <li><a href="">Контакты</a></li>
+        </ul>
+        <ul>
+          <li><a href="mailto:imfo@devstudio.com">info@devstudio.com</a></li>
+          <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+        </ul>
+      </nav>
+    </header>
+<main>
+  <!-- Герой -->
+  <section>
+    <h1>ЭФФЕКТИВНЫЕ РЕШЕНИЯ ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+    <a href="">Заказать услугу</a>
+  </section>
+  <!-- Преимущества -->
+  <section>
+      <ul>
+          <li>
+              <h2>Внимание к деталям</h2>
+              <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+          </li>
+          <li>
+              <h2>Пунктуальность</h2>
+              <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+          </li>
+          <li>
+              <h2>Планирование</h2>
+              <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+          </li>
+          <li>
+              <h2>Современные технологии</h2>
+              <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+          </li>
+      </ul>
+  </section>
+  <!-- Чем занимаются -->
+  <section>
+    <ul>
+      <li>
+              <h3>Чем мы занимаемся</h3></li>
+      <li>
+              <img src="./images/img.jpg" alt="WebStudio" width="370">
+      </li>
+      <li>
+              <img src="./images/img(1).jpg" alt="WebStudio" width="370">
+      </li>
+      <li>
+              <img src="./images/img(2).jpg" alt="WebStudio" width="370">
+      </li>
+    </ul>
+  </section>
+  <!-- Команда -->
+  <section>
+    <ul>
+        <li>
+            <h3>Наша команда</h3>
+        </li>
+        <li>
+            <figure>
+                <img src="./images/img(3).jpg" alt="WebStudio" width="270">
+                <figcaption>
+                    <h3>Игорь Демьяненко</h3>
+                    <h4>Product Designer</h4>
+                </figcaption>
+            </figure>
+        </li>
+        <li>
+            <figure>
+                <img src="./images/img(4).jpg" alt="WebStudio" width="270">
+                <figcaption>
+                    <h3>Ольга Репина</h3>
+                    <h4>Frontend Developer</h4>
+                </figcaption>
+            </figure>
+        </li>
+        <li>
+            <figure>
+                <img src="./images/img(5).jpg" alt="WebStudio" width="270">
+                <figcaption>
+                    <h3>Николай Тарасов</h3>
+                    <h4>Marketing</h4>
+                </figcaption>
+            </figure>
+        </li>
+        <li>
+            <figure>
+                <img src="./images/img(6).jpg" alt="WebStudio" width="270">
+                <figcaption>
+                    <h3>Михаил Ермаков</h3>
+                    <h4>UI Designer</h4>
+                </figcaption>
+            </figure>
+        </li>
+    </ul>
+  </section> 
+</main>
+<!-- Футер -->
+<footer>
+    <ul>
+      <li><a href="/"><img src="./images/WebStudio.svg" alt="WebStudio"></a>
+      <li>г. Киев, пр-т Леси Украинки, 26</li>
+      <li><a href= "mailto:info@example.com">info@example.com</a></li>
+      <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+    </ul>
+</footer>
+</body>
+</html>
